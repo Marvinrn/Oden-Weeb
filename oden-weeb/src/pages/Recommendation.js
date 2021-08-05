@@ -1,11 +1,12 @@
 import React from 'react';
+import Banner from '../components/Banner';
 import TopBar from '../components/TopBar';
 
 const Recommendation = () => {
     return (
         <div>
             <TopBar />
-            <h1>Mes recommandations</h1>
+            <Banner />
         </div>
     );
 };

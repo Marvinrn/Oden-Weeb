@@ -1,5 +1,5 @@
 import React from 'react';
-import OdenLogo from '../assets/OdenLogo1.png'
+import OdenLogo from '../assets/Logo/OdenLogo1.png'
 import { NavLink } from 'react-router-dom';
 
 const TopBar = () => {
@@ -10,7 +10,7 @@ const TopBar = () => {
                 <NavLink exact to="/" activeClassName="nav-active"> Accueil </NavLink>
                 <NavLink exact to="/MyTops" activeClassName="nav-active"> Mes Tops </NavLink>
                 <NavLink exact to="/Recommandation" activeClassName="nav-active">Mes Recommendations </NavLink>
-                <a href="/#" ><i className="fas fa-bars"></i></a>
+                <span className="threeBars"><i className="fas fa-bars"></i></span>
             </nav>
         </header>
     );

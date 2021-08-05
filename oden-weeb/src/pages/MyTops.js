@@ -1,11 +1,12 @@
 import React from 'react';
+import Banner from '../components/Banner';
 import TopBar from '../components/TopBar';
 
 const MyTops = () => {
     return (
         <div>
             <TopBar/>
-            <h1>Mes Tops</h1>
+            <Banner />
         </div>
     );
 };
