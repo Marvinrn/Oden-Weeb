@@ -24,9 +24,10 @@
 
     .threeBars{
         color: $color-1;
+        cursor: pointer;
     }
 
-    .threeBars:hover{
+    .threeBars:active{
         border-radius: 25px;
         padding: 5px 10px 5px 10px;
         background-color: $color-2

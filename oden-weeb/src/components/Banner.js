@@ -7,6 +7,7 @@ import Jinbei from '../assets/Banner/jinbei.png'
 import Mugen from '../assets/Banner/Mugen.png'
 import AllMight from '../assets/Banner/AllMight.png'
 import NobYuji from '../assets/Banner/NobYujiFushi.png'
+import Jolyne from '../assets/Banner/Jolyne.png'
 
 
 const Banner = () => {
@@ -19,6 +20,7 @@ const Banner = () => {
         Mugen,
         AllMight,
         NobYuji,
+        Jolyne
     ]
 
     const randomIndex = Math.floor(Math.random() * bannerImg.length);

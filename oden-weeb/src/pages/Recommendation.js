@@ -1,5 +1,8 @@
 import React from 'react';
 import Banner from '../components/Banner';
+import CarouselAnime from '../components/CarouselAnime';
+import CarouselManga from '../components/CarouselManga';
+
 import TopBar from '../components/TopBar';
 
 const Recommendation = () => {
@@ -7,6 +10,8 @@ const Recommendation = () => {
         <div>
             <TopBar />
             <Banner />
+            <CarouselAnime />
+            <CarouselManga />
         </div>
     );
 };

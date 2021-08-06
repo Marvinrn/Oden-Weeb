@@ -1,0 +1,90 @@
+.carouselAnime{
+    
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+        .slide-active{
+        opacity: 1;
+        transition: 1s;
+    }
+
+    .slide{
+        opacity: 0;
+        transition: 1s ease;
+    }
+
+    .Arrows{
+        color: $color-1;
+        font-size: 5em;
+        margin: 50px;
+    }
+
+    .carouselRightArrow{
+        position: absolute;
+        top: 50%;
+        right: 32px;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .carouselLeftArrow{
+        position: absolute;
+        top: 50%;
+        left: 32px;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+    }
+}
+
+.carouselFigure {
+    width: 800px;
+    padding: 50px;
+    color: white;
+    border-radius: 10px;
+    background-color: $color-3;
+    box-shadow: 12px 12px 20px 1px $color-3;
+
+    .carouselTitle {
+        text-align: center;
+        font-size: 2em;
+        color: white;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+        border-bottom: $color-1 solid 10px;
+    }
+
+    .carouselCover{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .carouselCaptions{
+
+
+        .carouselNumber{
+            margin-bottom: 15px;
+            color: $color-1;
+        }
+
+        .carouselDescription{
+            margin-bottom: 5px;
+            font-size: 0.9em;
+        }
+
+        .carouselOpinion{
+            margin-top: 5px;
+            font-size: 0.9em;
+        }
+
+        strong{
+            color: $color-1;
+        }
+    }
+
+}
