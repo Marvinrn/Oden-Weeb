@@ -1,0 +1,36 @@
+.home{
+
+
+    section{
+        width: 1200px;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        padding: 35px;
+        color: white;
+        border-radius: 10px;
+        background-color: $color-3;
+        box-shadow: 12px 12px 20px 1px $color-3;
+
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            color: white;
+            padding-bottom: 15px;
+            border-bottom: $color-1 solid 10px;
+        }
+
+        p{
+            font-size: 1.8em;
+        }
+
+        .quote{
+            text-align: center;
+            color: $color-1;
+        }
+
+        strong{
+            color: $color-1;
+        }
+    }
+}
