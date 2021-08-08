@@ -111,3 +111,87 @@ export const MangaList = [
         id:'5',
     },
 ]
+
+export const FilmList = [
+    {
+        title: 'Your Name',
+        duration: '1h 52',
+        cover: 'https://fr.web.img2.acsta.net/pictures/16/12/12/13/49/295774.jpg',
+        description: 'Taki est Mitsuha, et Mitsuha est Taki. Le lycéen tokyoïte et la jeune fille de la campagne échangent mystérieusement, à plusieurs reprises, leurs corps durant leur sommeil, et vivent chacun la vie de l’autre. Voici l’histoire de deux destins entremêlés qui défient l’espace et le temps, dans laquelle la tragédie se mêle à la romance...',
+        opinion: 'Musiques incroyables, histoire incroyable, animation incroyable, bref film incroyable qu\'il faut absolument voir.',
+        id:'1',
+    },
+
+    {
+        title: 'I Want to Eat Your Pancreas',
+        duration: '1h 49',
+        cover: 'https://musicart.xboxlive.com/7/d03b5100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080',
+        description: 'Sakura est une lycéenne populaire et pleine de vie. Tout l’opposé d\'un de ses camarades solitaires qui, tombant par mégarde sur son journal intime, découvre qu’elle n’a plus que quelques mois à vivre... Unis par ce secret, ils se rapprochent et s\'apprivoisent. Sakura lui fait alors une proposition : vivre ensemble toute une vie en accéléré, le temps d’un printemps.',
+        opinion: 'Le film que Your Lie In April aurait rêvé d\'être. Film sympa, pas grand-chose de nouveau mais l\'histoire est  intéressant à suivre et les personnages attachants. ',
+        id:'2',
+    },
+
+    {
+        title: 'Tokyo Godfathers',
+        duration: '1h 37',
+        cover: 'https://fr.web.img2.acsta.net/medias/nmedia/18/63/07/11/19462959.jpg',
+        description: 'A Tokyo, pendant les fêtes de Noël, trois amis sans abri trouvent un bébé abandonné et une mystérieuse clé annonciatrice de folles aventures.',
+        opinion: 'Un film d\'animation très touchant et une aventure palpitante, je recommande très fortement.',
+        id:'3',
+    },
+
+    {
+        title: 'Akira',
+        duration: '2h 06',
+        cover: 'https://lesitedujapon.com/wp-content/uploads/Akira-660x978.jpg',
+        description: 'En juillet 1988, une mystérieuse explosion détruit Tokyo, déclenchant la troisième guerre mondiale. 31 ans plus tard, en 2019, Néo Tokyo, la mégalopole construite sur la baie de Tokyo a retrouvé sa prospérité d’antan et se prépare à l’évènement majeur des Jeux olympiques de 2020.',
+        opinion: 'Classique des films d\'animation japonais, à voir forcément au moins une fois dans sa vie.',
+        id:'4',
+    },
+
+    {
+        title: 'DRAGON QUEST : YOUR STORY',
+        duration: '1h 43',
+        cover: 'https://i.postimg.cc/J4z7hbZZ/Hakata-Ramen-Dragon-Quest-Your-Story-Netflix-Web-DL-Cover.jpg',
+        description: 'En digne fils de son père, Luca décide d\'aller sauver sa mère des griffes d\'Erebos le Fou, mais il lui faut d\'abord trouver l\'élu capable de brandir l\'épée zénithienne.',
+        opinion: 'Film que représente très fidèlement l\'univers des jeux vidéos Dragon Quest, donc je recommande fortement aux geek cet anime.',
+        id:'5',
+    },
+]
+
+export const JeuxList = [
+    {
+        title: 'Persona 5',
+        cover: 'https://personacentral.com/wp-content/uploads/2016/08/Persona-5-Guide-Book.jpg',
+        category: ' JRPG, ‎Dungeon crawler‎, ‎Visual novel',
+        id:'1',
+    },
+
+    {
+        title: 'Dragon Quest XI : Les Combattants de la destinée',
+        cover: 'https://image.api.playstation.com/vulcan/ap/rnd/202007/1607/NEttGOJAZFBRnaAXVFSyD64K.png',
+        category: 'RPG',
+        id:'2',
+    },
+
+    {
+        title: 'Dragon Ball FighterZ',
+        cover: 'https://image.jeuxvideo.com/medias/151681/1516808715-4062-jaquette-avant.jpg',
+        category: 'Jeu de combat',
+        id:'3',
+    },
+
+    {
+        title: 'Naruto Shippūden: Ultimate Ninja Storm 4',
+        cover: 'https://cdn-prod.scalefast.com/public/assets/user/122595/image/07d46eb2c3db8e017d4466d855b6a1a7.jpg',
+        category: 'Jeu de combat',
+        id:'4',
+    },
+
+    {
+        title: 'Pokémon Donjon Mystère : Explorateurs de l\'ombre et Explorateurs du temps',
+        cover: 'https://image.jeuxvideo.com/images-sm/ds/p/d/pdtnds0f.jpg',
+        category: 'Donjon/RPG',
+        id:'5',
+    },
+]

@@ -1,4 +1,4 @@
-.carouselManga{
+.carouselJeux{
     
     position: relative;
     bottom: 100px;
@@ -67,33 +67,10 @@
         border-bottom: $color-1 solid 10px;
     }
 
-    .carouselCover{
+    .carouselJeuxCover{
         width: 100%;
-        height: 300px;
+        height: 500px;
         object-fit: cover;
-    }
-
-    .carouselCaptions{
-
-
-        .carouselNumber{
-            margin-bottom: 15px;
-            color: $color-1;
-        }
-
-        .carouselDescription{
-            margin-bottom: 5px;
-            font-size: 0.9em;
-        }
-
-        .carouselOpinion{
-            margin-top: 5px;
-            font-size: 0.9em;
-        }
-
-        strong{
-            color: $color-1;
-        }
     }
 
 }
