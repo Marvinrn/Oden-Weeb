@@ -4,25 +4,27 @@
     position: fixed;
     top: 0;
     left: 25%;
+    right: 25%;
+    bottom: 0;
     background-color: rgba($color-3, $alpha: .9);
-    height: 100vh;
+    box-shadow: 10px 10px 10px 1000px  rgba($color-3, $alpha: .9);
     display: flex;
     justify-content: center;
     align-items: center;
     }
 
-
-    .closePopupCross{
-        position: absolute;
-        color: $color-1;
-        top: 50px;
-        right: 50px;
-        font-size: 3em;
-        cursor: pointer;
+    .popup.open{
+        animation: open 0.5s forwards;
+    }
+    
+    .popup.close{
+        animation: close 0.5s forwards;
     }
 
-    .closePopupCross:hover{
-        transform: scale(1.50);
+    @keyframes open {
+        0%{
+            transform: translate(-50%, -50%) scale(0);
+        }   
     }
 }
 

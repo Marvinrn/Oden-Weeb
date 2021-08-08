@@ -7,14 +7,16 @@ const CarouselsPopup = () => {
     const [carouselMangaPopup, setCarouselMangaPopup] = useState(false)
     let popupRef = useRef();
 
+    //Function to trigger the popup
     function Popup(props) {
         return (props.trigger) ? (
-            <div className="popup">
+            <div className="popup open">
                 {props.children}
             </div>
         ) : "";
     }
 
+    //Event when click outside it close the popup
     useEffect(() => {
         document.addEventListener("mousedown", (event) => {
             if (!popupRef.current.contains(event.target)) {
@@ -23,9 +25,6 @@ const CarouselsPopup = () => {
             }
         })
     })
-
-    console.log(popupRef);
-
 
     return (
         <div className="carouselsPopup">
@@ -37,7 +36,7 @@ const CarouselsPopup = () => {
 
             <div ref={popupRef}>
             <Popup trigger={carouselAnimePopup} setTrigger={setCarouselAnimePopup}>
-                <CarouselAnime  className="bgPopup"/>
+                <CarouselAnime />
             </Popup>
 
             <Popup trigger={carouselMangaPopup} setTrigger={setCarouselMangaPopup}>
