@@ -33,7 +33,7 @@ const CarouselAnime = () => {
                                 <div className="row">
                                     <img className="carouselCover" src={slide.cover} alt={slide.title} />
                                     <figcaption className="carouselCaptions">
-                                        <h2 className="carouselNumber">Nombre de saisons {slide.saisons}, nombre d'épisodes {slide.episodes}</h2>
+                                        <h2 className="carouselNumber">Nombre de saisons : {slide.saisons}, nombre d'épisodes : {slide.episodes}</h2>
                                         <p className="carouselDescription"> <strong>Synopsis</strong> : {slide.description}</p>
                                         <p className="carouselOpinion"><strong>Mon avis personnel</strong> : {slide.opinion}</p>
                                     </figcaption>

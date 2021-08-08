@@ -69,7 +69,7 @@ export const MangaList = [
     {
         title: 'Claymore',
         tomes: '27',
-        cover: 'https://images-na.ssl-images-amazon.com/images/I/91mJ1qN4dVL.jpg',
+        cover: 'https://images-na.ssl-images-amazon.com/images/I/91+n8fJnKNL.jpg',
         description: 'Raki, un jeune homme dont la famille a été décimée par les malebêtes, de puissants démons sanguinaires capables de changer d’apparence, se lie d\'amitié avec Claire, une chasseuse employée par une mystérieuse organisation en charge de traquer ces terrifiants prédateurs...',
         opinion: 'Mon manga favoris, des combats incroyables, des personnages iconiques, des planches sublimes, une histoire fantastique... En d\'autres termes...tout simplement une merveille !',
         id:'1',
@@ -78,7 +78,7 @@ export const MangaList = [
     {
         title: 'Kingdom',
         tomes: '62',
-        cover: 'https://media.senscritique.com/media/000018328965/source_big/Kingdom_tome_16.jpg',
+        cover: 'https://comicvine1.cbsistatic.com/uploads/scale_large/6/67663/6428286-50.jpg',
         description: 'Au sein du Royaume de Qin vivent deux orphelins, Hyo et Shin. Au beau milieu des champs de bataille, les deux frères espèrent un jour qu\'eux aussi, ils pourront servir leur royaume en combattant aux côtés des soldats qu\'ils admirent. Alors qu\'un jour, les deux orphelins se trouvent séparés, Shin décide de poursuivre son chemin pour devenir un grand général.',
         opinion: 'Tout bonnement un chef-d\'œuvre',
         id:'2',
