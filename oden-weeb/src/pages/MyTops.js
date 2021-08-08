@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from '../components/Banner';
+import Footer from '../components/Footer';
 import TopBar from '../components/TopBar';
 
 const MyTops = () => {
@@ -7,6 +8,7 @@ const MyTops = () => {
         <div>
             <TopBar/>
             <Banner />
+            <Footer />
         </div>
     );
 };

@@ -1,0 +1,39 @@
+footer{
+    display: flex;
+	justify-content: flex-start;
+	margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+	background-color: $color-3;
+	width: 100%;
+
+    .footerContainer{
+
+        padding-left: 15%;
+        
+        h4{
+            color: $color-1;
+        }
+            
+        ul{
+            list-style-type: none;
+            padding-left: 0;
+        }
+            
+        a{
+            line-height: 2em;
+            text-decoration: none;
+            color: white;
+        }
+            
+        li {
+
+            a:hover{
+                font-weight: bold;
+                opacity: 0.5;
+                color: white;
+            }
+         }
+    }
+}

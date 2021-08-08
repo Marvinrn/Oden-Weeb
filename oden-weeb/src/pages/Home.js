@@ -2,6 +2,7 @@ import React from 'react';
 import TopBar from '../components/TopBar';
 import Banner from '../components/Banner';
 import MangaQuotes from '../components/MangaQuotes';
+import Footer from '../components/Footer';
 
 
 
@@ -25,6 +26,7 @@ const Home = () => {
                 <br/>
                 <p className="quote"> "Bouillir, tel est le propre du Oden." -Oden Kozuki</p>
             </section>
+            <Footer />
         </div>
     );
 };
