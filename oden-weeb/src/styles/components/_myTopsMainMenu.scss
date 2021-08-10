@@ -1,0 +1,56 @@
+.myTopsMainMenu{
+
+    .topMenuTitle{
+
+        h1{
+            margin: auto;
+            width: 60%;
+            margin-bottom: 25px;
+            padding-bottom: 10px;
+            text-align: center;
+            color: $color-3;
+            border-bottom: 5px solid $color-1
+        }
+    }
+    
+    .topsSections{
+        position: relative;
+        width: 60%;
+        margin: auto;
+        background-color: $color-3;
+        border: 1px solid white;
+        cursor: pointer;
+        
+        h1{
+            color: $color-1;
+            text-align: center;
+        }
+        
+        .customArrow{
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: $color-1;
+            display: block;
+            height: 100%;
+            width: 4rem;
+        }
+        
+        .customArrow::before{
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+            
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .customArrow::before{
+            border-left: 1em solid transparent;
+            border-right: 1em solid transparent;
+            border-top: 1em solid $color-3;
+            top: 50%;
+        }
+    }
+}
