@@ -17,6 +17,7 @@
         position: relative;
         width: 60%;
         margin: auto;
+        padding: 10px;
         background-color: $color-3;
         border: 1px solid white;
         cursor: pointer;
@@ -52,5 +53,11 @@
             border-top: 1em solid $color-3;
             top: 50%;
         }
+
+    }
+
+    .topsSections:hover{
+        opacity: 0.8;
+        transform: scale(1.02);
     }
 }
