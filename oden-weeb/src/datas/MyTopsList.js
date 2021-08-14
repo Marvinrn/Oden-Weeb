@@ -1,4 +1,4 @@
-export const Top20Op = [
+export const Top10Op = [
     {
         rank: '10',
         anime: 'Claymore - Opening',
@@ -70,84 +70,74 @@ export const Top20Op = [
     },
 ]
 
-export const Top20End = [
+export const Top10End = [
     {
         rank: '10',
-        anime: '',
-        title: '',
-        youtube: '',
+        anime: 'Seishun Buta Yarou',
+        youtube: 'https://www.youtube.com/embed/6skJdifi6sY',
         id: '11'
     },
 
     {
         rank: '9',
-        anime: '',
-        title: '',
-        youtube: '',
+        anime: 'Shakugan no Shana - Ending 1',
+        youtube: 'https://www.youtube.com/embed/a2rYDQux-Zw',
         id: '12'
     },
 
     {
         rank: '8',
-        anime: '',
-        title: '',
-        youtube: '',
+        anime: 'Psycho Pass - Ending 1',
+        youtube: 'https://www.youtube.com/embed/sF0QLtk3YH0',
         id: '13'
     },
 
     {
         rank: '7',
-        anime: '',
-        title: '',
-        youtube: '',
+        anime: 'Ushio and Tora - Ending 3',
+        youtube: 'https://www.youtube.com/embed/X1NC1u0hBJY',
         id: '14'
     },
 
     {
         rank: '6',
-        anime: '',
-        title: '',
-        youtube: '',
+        anime: 'Hunter x Hunter - Ending 3',
+        youtube: 'https://www.youtube.com/embed/_S8EWHxk_ls',
         id: '15'
     },
 
     {
         rank: '5',
-        anime: '',
-        title: '',
-        youtube: '',
+        anime: 'Soul Eater - Ending 3 ',
+        youtube: 'https://www.youtube.com/embed/6W1ajuerl6o',
         id: '16'
     },
 
     {
         rank: '4',
-        anime: '',
-        title: '',
-        youtube: '',
+        anime: 'Claymore - Ending',
+        youtube: 'https://www.youtube.com/embed/S65vbeaXQgE',
         id: '17'
     },
 
     {
         rank: '3',
-        anime: '',
-        title: '',
-        youtube: '',
+        anime: 'Jujutsu Kaisen -Ending 1',
+        youtube: 'https://www.youtube.com/embed/6riDJMI-Y8U',
         id: '18'
     },
 
     {
         rank: '2',
-        anime: '',
-        title: '',
-        youtube: '',
+        anime: 'Samourai Champloo - Ending',
+        youtube: 'https://www.youtube.com/embed/mQAfG3DgG7M',
         id: '19'
     },
 
     {
         rank: '1',
-        anime: '',
-        title: '',
-        youtube: '',
+        anime: 'Naruto Shippuden - Ending 7',
+        youtube: 'https://www.youtube.com/embed/heMBf1ESFtk',
         id: '20'
     },
 ]

@@ -18,7 +18,7 @@ const Home = () => {
                 <br/>
                 <p>Bienvenu sur mon site <strong>ODEN WEEB</strong> !</p>
                 <br/>
-                <p>Fan de Manga et d'Anime en tous genres,  je vous partage a travers ce site ma passion pour l'univers Manga/Anime.
+                <p>Fan de Manga et d'Anime en tous genres,  je vous partage à travers ce site ma passion pour l'univers Manga/Anime.
                     <br/>
                     <br/>
                 Vous y retrouverez notamment des classements totalement personnel en rapport à la culture Manga/Anime (Top Opening, Top Anime Top Personnages etc. etc.), ainsi que des recommandations personnelles de Manga à lire et d'anime à regarder.

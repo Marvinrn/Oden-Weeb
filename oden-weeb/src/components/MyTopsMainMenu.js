@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+import TopEnding from './TopEnding';
 import TopOpening from './TopOpening';
 
 const MyTopsMainMenu = () => {
     const [openingOpen, setOpeningOpen] = useState(false)
+    const [endingOpen, setEndingOpen] = useState(false)
 
     function Popup(props) {
         return (props.trigger) ? (
@@ -30,10 +32,13 @@ const MyTopsMainMenu = () => {
             </section>
 
             <section>
-                <div className="topsSections">
+                <div className="topsSections" onClick={() => setEndingOpen(!endingOpen)}>
                     <h1> Top 10 Ending </h1>
                     <span className="customArrow"></span>
                 </div>
+                <Popup trigger={endingOpen}>
+                    <TopEnding />
+                </Popup>
             </section>
 
             <section>
