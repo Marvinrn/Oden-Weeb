@@ -141,3 +141,75 @@ export const Top10End = [
         id: '20'
     },
 ]
+
+export const Top10Anime = [
+    {
+        rank:'10',
+        anime:'Naruto',
+        cover:'https://i.pinimg.com/736x/d7/53/f0/d753f0616ca4c3d6110df37d9493a268.jpg',
+        id:'1'
+    },
+
+    {
+        rank:'9',
+        anime:'Parasyte',
+        cover:'https://m.media-amazon.com/images/M/MV5BZTViMTZlMjgtNjVmZC00NjEzLWJlN2QtMjQ4ZTYxNzBiZmMyXkEyXkFqcGdeQXVyNjc2NjA5MTU@._V1_FMjpg_UX1000_.jpg',
+        id:'2'
+    },
+
+    {
+        rank:'8',
+        anime:'Steins;Gate',
+        cover:'https://www.manga-news.com/public/images/dvd/steins-gate-anime.jpg',
+        id:'3'
+    },
+
+    {
+        rank:'7',
+        anime:'Shingeki No Kyojin',
+        cover:'https://i.pinimg.com/originals/42/ba/a0/42baa04ae98ef2659a4fa7408e5f64c1.jpg',
+        id:'4'
+    },
+
+    {
+        rank:'6',
+        anime:'Ano Hana',
+        cover:'https://media.senscritique.com/media/000017420994/source_big/Ano_hi_mita_hana_no_namae_o_bokutachi_wa_mada_shiranai.jpg',
+        id:'5'
+    },
+
+    {
+        rank:'5',
+        anime:'Great Teacher Onizuka',
+        cover:'https://images.wave.fr/images//great-teacher-onizuka-va-etre-adapter-en-film-1000x750.jpg',
+        id:'6'
+    },
+
+    {
+        rank:'4',
+        anime:'Hajime No Ippo',
+        cover:'https://fr.techtribune.net/wp-content/uploads/2021/06/hajime-no-ippo-1272677-1280x0.jpeg',
+        id:'7'
+    },
+
+    {
+        rank:'3',
+        anime:'One Piece',
+        cover:'https://img.sanctuary.fr/thumbs_news_fb/35880.jpg',
+        id:'8'
+    },
+
+    {
+        rank:'2',
+        anime:'Hunter x Hunter',
+        cover:'https://pm1.narvii.com/6751/729c4d2ab5ec5ee30d0b34bf09441f57e6d72324v2_hq.jpg',
+        id:'9'
+    },
+
+    {
+        rank:'1',
+        anime:'JoJo\'s Bizarre Adventure',
+        cover:'https://blog.onehallyu.com/wp-content/uploads/2019/08/Cover-750x800.png',
+        id:'10'
+    },
+]

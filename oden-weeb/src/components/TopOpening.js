@@ -1,6 +1,5 @@
 import React from 'react';
 import { Top10Op } from '../datas/MyTopsList'
-import ReactPlayer from 'react-player'
 
 const TopOpening = () => {
     return (
@@ -10,15 +9,16 @@ const TopOpening = () => {
                     
                     <div key={id} className="sectionOpening">
                         <h1> {rank} : {anime}</h1>
-                        <ReactPlayer 
-                        className="youtubePlayer"
-                        url={youtube} 
-                        controls={true} 
-                        width="100%"
-                        height="100%"
-                        config={{ youtube: { playerVars: { origin: 'https://www.youtube.com' }}}}
+                        <iframe
+                            width="100%"
+                            height="100%"
+                            src={youtube}
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                            title="Embedded youtube"
+                            config={{ youtube: { playerVars: { origin: 'https://www.youtube.com' }}}}
                         />
-                        
                     </div>
                 )
             })}

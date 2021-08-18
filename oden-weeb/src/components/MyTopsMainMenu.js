@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
+import TopAnime from './TopAnime';
 import TopEnding from './TopEnding';
 import TopOpening from './TopOpening';
 
 const MyTopsMainMenu = () => {
     const [openingOpen, setOpeningOpen] = useState(false)
     const [endingOpen, setEndingOpen] = useState(false)
+    const [animeOpen, setAnimeOpen] = useState(false)
 
     function Popup(props) {
         return (props.trigger) ? (
@@ -20,7 +22,7 @@ const MyTopsMainMenu = () => {
 
     return (
         <main className="myTopsMainMenu">
-            <span className="topMenuTitle"><h1>Retrouvez ici sous forme de Top mes classement totalement subjectif sur la culture manga !</h1></span>
+            <span className="topMenuTitle"><h1>Retrouvez ici sous forme de Top mes classements totalement subjectif sur la culture manga !</h1></span>
             <section>
                 <div onClick={() => setOpeningOpen(!openingOpen)} className="topsSections">
                     <h1> Top 10 Opening </h1>
@@ -42,24 +44,13 @@ const MyTopsMainMenu = () => {
             </section>
 
             <section>
-                <div className="topsSections">
+                <div className="topsSections" onClick={() => setAnimeOpen(!animeOpen)}>
                     <h1> Top 10 Anime </h1>
                     <span className="customArrow"></span>
                 </div>
-            </section>
-
-            <section>
-                <div className="topsSections">
-                    <h1> Top 5 JRPG </h1>
-                    <span className="customArrow"></span>
-                </div>
-            </section>
-
-            <section>
-                <div className="topsSections">
-                    <h1> Top 5 Pires Personnages </h1>
-                    <span className="customArrow"></span>
-                </div>
+                <Popup trigger={animeOpen}>
+                    <TopAnime />
+                </Popup>
             </section>
         </main>
     );

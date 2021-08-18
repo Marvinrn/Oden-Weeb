@@ -16,7 +16,7 @@ const Home = () => {
             <section>
                 <h1>Présentation</h1>
                 <br/>
-                <p>Bienvenu sur mon site <strong>ODEN WEEB</strong> !</p>
+                <p>Bienvenu sur <strong>ODEN WEEB</strong> !</p>
                 <br/>
                 <p>Fan de Manga et d'Anime en tous genres,  je vous partage à travers ce site ma passion pour l'univers Manga/Anime.
                     <br/>
