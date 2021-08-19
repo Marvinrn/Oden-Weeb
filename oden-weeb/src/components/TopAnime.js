@@ -6,7 +6,6 @@ const TopAnime = () => {
         <div>
             {Top10Anime.map(({ id, rank, anime, cover }) => {
                 return (
-                    
                     <div key={id} className="sectionAnime">
                         <h1> {rank} : {anime}</h1>
                         <img className="topAnimeCover" src={cover} alt={anime} />

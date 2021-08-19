@@ -213,3 +213,73 @@ export const Top10Anime = [
         id:'10'
     },
 ]
+
+export const Top5Manga = [
+    {
+        rank:'5',
+        anime:'My Hero Academia',
+        cover:'https://mangahelpers.com/forum/media/bnha-volume-25.23135/full?code=38909ddb',
+        id:'1'
+    },
+    {
+        rank:'4',
+        anime:'Great Teacher Onizuka',
+        cover:'https://www.planetebd.com/dynamicImages/album/cover/large/31/10/album-cover-large-31104.jpg',
+        id:'2'
+    },
+    {
+        rank:'3',
+        anime:'One Piece',
+        cover:'https://i.pinimg.com/originals/de/51/1e/de511e896610cf7f54eafa6575c529a6.png',
+        id:'3'
+    },
+    {
+        rank:'2',
+        anime:'JoJo\'s Bizarre Adventure',
+        cover:'https://www.bedetheque.com/media/Couvertures/Couv_288761.jpg',
+        id:'4'
+    },
+    {
+        rank:'1',
+        anime:'Claymore',
+        cover:'https://images-na.ssl-images-amazon.com/images/I/91pIDIKq0zL.jpg',
+        id:'5'
+    },
+]
+
+export const Top5Carac = [
+    {
+        rank:'5',
+        anime:'Isaac Netero',
+        cover:'https://wallpapercave.com/wp/wp2629851.jpg',
+        id:'1'
+    },
+
+    {
+        rank:'4',
+        anime:'Okuya Nijimura - JoJo\'s Bizarre Adventure',
+        cover:'https://w0.peakpx.com/wallpaper/131/96/HD-wallpaper-okuyasu-anime-jojo-jojo-bizarre-adventures-jojos-bizarre-adventures-zahando.jpg',
+        id:'2'
+    },
+
+    {
+        rank:'3',
+        anime:'Eikichi Onizuka - GTO',
+        cover:'https://wallpapercave.com/wp/wp4092724.jpg',
+        id:'3'
+    },
+
+    {
+        rank:'2',
+        anime:'Oden Kozuki - One Piece',
+        cover:'https://wallpaperaccess.com/full/5048464.jpg',
+        id:'4'
+    },
+
+    {
+        rank:'1',
+        anime:'Jean-Pierre Polnareff - JoJo\'s Bizarre Adventure',
+        cover:'https://c4.wallpaperflare.com/wallpaper/915/15/701/anime-jojo-s-bizarre-adventure-jean-pierre-polnareff-wallpaper-preview.jpg',
+        id:'5'
+    },
+]
