@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/oden-weeb/static/css/main.3ecc409e.chunk.css",
+    "main.js": "/oden-weeb/static/js/main.78da42fe.chunk.js",
+    "main.js.map": "/oden-weeb/static/js/main.78da42fe.chunk.js.map",
+    "runtime-main.js": "/oden-weeb/static/js/runtime-main.3c3459f3.js",
+    "runtime-main.js.map": "/oden-weeb/static/js/runtime-main.3c3459f3.js.map",
+    "static/js/2.93fc43d1.chunk.js": "/oden-weeb/static/js/2.93fc43d1.chunk.js",
+    "static/js/2.93fc43d1.chunk.js.map": "/oden-weeb/static/js/2.93fc43d1.chunk.js.map",
+    "index.html": "/oden-weeb/index.html",
+    "static/css/main.3ecc409e.chunk.css.map": "/oden-weeb/static/css/main.3ecc409e.chunk.css.map",
+    "static/js/2.93fc43d1.chunk.js.LICENSE.txt": "/oden-weeb/static/js/2.93fc43d1.chunk.js.LICENSE.txt",
+    "static/media/AllMight.c4cdc812.png": "/oden-weeb/static/media/AllMight.c4cdc812.png",
+    "static/media/Alljojos.1fbbbb65.png": "/oden-weeb/static/media/Alljojos.1fbbbb65.png",
+    "static/media/AnoHana.457ebe4e.png": "/oden-weeb/static/media/AnoHana.457ebe4e.png",
+    "static/media/Chariot.7364398d.png": "/oden-weeb/static/media/Chariot.7364398d.png",
+    "static/media/Hajime.5f954e1b.png": "/oden-weeb/static/media/Hajime.5f954e1b.png",
+    "static/media/JoJos.1c918192.png": "/oden-weeb/static/media/JoJos.1c918192.png",
+    "static/media/Jolyne.597a4446.png": "/oden-weeb/static/media/Jolyne.597a4446.png",
+    "static/media/Jujutsu.5b6e3d5f.png": "/oden-weeb/static/media/Jujutsu.5b6e3d5f.png",
+    "static/media/Kozuki.98ff4c48.png": "/oden-weeb/static/media/Kozuki.98ff4c48.png",
+    "static/media/Mugen.603644c1.png": "/oden-weeb/static/media/Mugen.603644c1.png",
+    "static/media/NobYujiFushi.9814a66e.png": "/oden-weeb/static/media/NobYujiFushi.9814a66e.png",
+    "static/media/OdenLogo1.1a0de242.png": "/oden-weeb/static/media/OdenLogo1.1a0de242.png",
+    "static/media/SteinsGate.3b1c9764.png": "/oden-weeb/static/media/SteinsGate.3b1c9764.png",
+    "static/media/jinbei.0e96f341.png": "/oden-weeb/static/media/jinbei.0e96f341.png",
+    "static/media/kira.a51aa097.png": "/oden-weeb/static/media/kira.a51aa097.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c3459f3.js",
+    "static/js/2.93fc43d1.chunk.js",
+    "static/css/main.3ecc409e.chunk.css",
+    "static/js/main.78da42fe.chunk.js"
+  ]
+}
