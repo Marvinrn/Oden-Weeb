@@ -2,20 +2,19 @@
     width: 60%;
     margin: auto;
     margin-top: 20px;
-    margin-bottom: 35px;
-    padding-top: 20px;
+    margin-bottom: 70px;
     display: flex;
-    border-top: 3px solid rgba(61, 71, 82, 0.9);
-    border-top-width: 60%;
     flex-direction: column;
     align-items: center;
     height: 500px;
+    border-top: 3px solid rgba(61, 71, 82, 0.9);
 
     h1{
         text-align: center;
         font-size: 2em;
         color: $color-1;
         margin-bottom: 15px;
+        margin-top: 35px;
     }
 
     .topAnimeCover{
@@ -24,4 +23,10 @@
         object-fit: cover;
     }
 
+}
+@media only screen and (min-width : 300px) and (max-width : 640px)
+{
+    .sectionAnime{
+        margin-bottom: 120px;
+    }
 }
