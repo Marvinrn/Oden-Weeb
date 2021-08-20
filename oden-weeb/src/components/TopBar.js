@@ -9,7 +9,7 @@ const TopBar = () => {
                 <a href="/" ><img className="OdenLogo" src={OdenLogo} alt='logo'/></a>
                 <NavLink exact to="/" activeClassName="nav-active"> Accueil </NavLink>
                 <NavLink exact to="/MyTops" activeClassName="nav-active"> Mes Tops </NavLink>
-                <NavLink exact to="/Recommandation" activeClassName="nav-active">Mes Recommendations </NavLink>
+                <NavLink exact to="/Recommandation" activeClassName="nav-active">Mes Recommandations </NavLink>
                 <span className="threeBars"><i className="fas fa-bars"></i></span>
             </nav>
         </header>
