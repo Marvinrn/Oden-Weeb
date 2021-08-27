@@ -257,7 +257,7 @@ export const Top5Carac = [
 
     {
         rank:'4',
-        anime:'Okuya Nijimura - JoJo\'s Bizarre Adventure',
+        anime:'Okuyasu Nijimura - JoJo\'s Bizarre Adventure',
         cover:'https://w0.peakpx.com/wallpaper/131/96/HD-wallpaper-okuyasu-anime-jojo-jojo-bizarre-adventures-jojos-bizarre-adventures-zahando.jpg',
         id:'2'
     },
