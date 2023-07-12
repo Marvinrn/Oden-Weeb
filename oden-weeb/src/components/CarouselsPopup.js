@@ -33,7 +33,7 @@ const CarouselsPopup = () => {
 
         document.addEventListener("mousedown", handler)
 
-        return() => {
+        return () => {
             document.removeEventListener("mousedown", handler)
         }
     })
@@ -44,7 +44,7 @@ const CarouselsPopup = () => {
                 <h1>Retrouvez ici mes selections d'animes et de mangas incontournables !</h1>
                 <div className="recommendationCards">
                     <figure className="recommendationFigure" onClick={() => setCarouselAnimePopup(true)}>
-                        <img className="recommendationImg" src="https://pbs.twimg.com/media/E4f2z6EXEAMf2U0?format=jpg&name=large" alt="topAnime" />
+                        <img className="recommendationImg" src="https://w0.peakpx.com/wallpaper/33/7/HD-wallpaper-anime-crossover.jpg" alt="topAnime" />
                         <figcaption className="recoCaption">
                             <h3>Animes à ne pas rater</h3>
                         </figcaption>
